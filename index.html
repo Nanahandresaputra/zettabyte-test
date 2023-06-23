@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet" />
+    <title>Zettabyte</title>
+  </head>
+  <body>
+    <main aria-label="paper" class="paper w-18rem flex flex-col">
+      <section class="m-1rem flex flex-col">
+        <div aria-label="user posting" class="flex space-x-5px items-center justify-center">
+          <img src="./assets/user1.jpeg" alt="user1" class="avatar" />
+          <div class="flex justify-between items-center w-100">
+            <p class="font-bold text-sky-300 text-large">
+              Garry Newman <span class="font-medium text-black">posted on your timeline</span> <br />
+              <span class="text-large font-medium text-gray">32 minutes ago</span>
+            </p>
+            <i class="fa-solid fa-ellipsis-vertical text-large"></i>
+          </div>
+        </div>
+        <article aria-label="posting">
+          <p class="text-large my-10px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus velit quos quod eaque.</p>
+          <img src="./assets/img-content.jpg" alt="mountaint" class="img-content" />
+        </article>
+        <div class="flex space-x-10px">
+          <p class="text-large"><i class="fa-sharp fa-solid fa-heart"></i><span class="ms-2px">Like (5)</span></p>
+          <p class="text-large"><i class="fa-solid fa-share-nodes"></i> <span class="ms-2px">Share (21)</span></p>
+        </div>
+      </section>
+      <section class="bg-gray-300 w-100 rounded-2px">
+        <div class="m-8px">
+          <p class="text-large mb-5px"><span>1 comments </span> <i class="fa-solid fa-chevron-down ms-7px"></i></p>
+          <div class="flex space-x-5px">
+            <img src="./assets/user2.jpg" alt="user2" class="avatar" />
+            <div>
+              <p class="text-large font-bold">Alice Freeman <span class="font-medium text-gray">June 23, 2023</span></p>
+              <p class="text-large">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quae numquam voluptas tempora? Deleniti nesciunt adipisci pariatur sed saepe velit fugiat reiciendis architecto repudiandae cum sapiente, consequuntur quaerat
+                aut officiis.
+              </p>
+              <p class="text-large"><span class="text-sky-300 font-bold">Reply</span> <i class="fa-regular fa-flag ms-2px"></i></p>
+            </div>
+          </div>
+          <div>
+            <div class="flex space-x-5px my-10px">
+              <img src="./assets/user3.png" alt="user3" class="avatar" />
+              <div class="w-100 me-8px">
+                <textarea name="comment" id="comment" placeholder="Add comment ..." class="comment-component text-large mb-12px"></textarea>
+                <button class="btn-primary text-large font-bold">Post Coment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://kit.fontawesome.com/670a46e792.js" crossorigin="anonymous"></script>
+  </body>
+</html>
